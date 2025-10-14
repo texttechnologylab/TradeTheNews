@@ -16,6 +16,10 @@ docker run --rm \
   -p 127.0.0.1:1000:9714 \
   org.ttlab/embeddings:latest
 ```
+ 
+Compile the Java Application with maven. Run the Main whenever you want to analyze the news inside the Database.
+News can be loaded to the Database via the frontend. 
+The Java Application is looking in the enviornment for the necessary variables to build the connection string (have a look in org.example.MongoDBHandler.java).
 
 ## Frontend
 ## Setup the Project tradeTheNews
