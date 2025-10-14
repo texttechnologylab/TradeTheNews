@@ -19,7 +19,7 @@ docker run --rm \
  
 Compile the Java Application with maven. Run the Main whenever you want to analyze the news inside the Database.
 News can be loaded to the Database via the frontend. 
-The Java Application is looking in the enviornment for the necessary variables to build the connection string (have a look in org.example.MongoDBHandler.java).
+The Java Application is looking in the enviornment for the necessary variables to build the connection string (have a look in org.example.MongoDBHandler).
 
 ## Frontend
 ## Setup the Project tradeTheNews
