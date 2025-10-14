@@ -1,0 +1,316 @@
+# ==============================
+# REQUIREMENTS FILE
+# With official library links for reference
+# ==============================
+
+# attrs — Declarative classes without boilerplate
+# https://pypi.org/project/attrs/
+attrs==25.3.0
+
+# beautifulsoup4 — HTML/XML parser
+# https://pypi.org/project/beautifulsoup4/
+beautifulsoup4==4.13.4
+
+# blinker — Fast Python signaling
+# https://pypi.org/project/blinker/
+blinker==1.9.0
+
+# boto3 — AWS SDK for Python
+# https://pypi.org/project/boto3/
+boto3==1.40.5
+
+# botocore — Core components of AWS SDK
+# https://pypi.org/project/botocore/
+botocore==1.40.5
+
+# bs4 — Wrapper for BeautifulSoup4
+# https://pypi.org/project/bs4/
+bs4==0.0.2
+
+# certifi — SSL certificates for HTTPS verification
+# https://pypi.org/project/certifi/
+certifi==2025.8.3
+
+# cffi — Foreign Function Interface for C code
+# https://pypi.org/project/cffi/
+cffi==1.17.1
+
+# charset-normalizer — Text encoding detection
+# https://pypi.org/project/charset-normalizer/
+charset-normalizer==3.4.2
+
+# click — CLI tool for Python
+# https://pypi.org/project/click/
+click==8.2.1
+
+# colorama — Colored terminal output
+# https://pypi.org/project/colorama/
+colorama==0.4.6
+
+# cssselect — CSS selectors for lxml
+# https://pypi.org/project/cssselect/
+cssselect==1.3.0
+
+# curl_cffi — Curl bindings using CFFI
+# https://pypi.org/project/curl-cffi/
+curl_cffi==0.13.0
+
+# ddgs — DuckDuckGo search API
+# https://pypi.org/project/ddgs/
+ddgs==9.5.5
+
+# dnspython — DNS toolkit
+# https://pypi.org/project/dnspython/
+dnspython==2.7.0
+
+# exceptiongroup — Exception grouping support
+# https://pypi.org/project/exceptiongroup/
+exceptiongroup==1.3.0
+
+# feedfinder2 — RSS/Atom feed discovery
+# https://pypi.org/project/feedfinder2/
+feedfinder2==0.0.4
+
+# feedparser — Parse RSS/Atom feeds
+# https://pypi.org/project/feedparser/
+feedparser==6.0.12
+
+# filelock — Portable file locking
+# https://pypi.org/project/filelock/
+filelock==3.19.1
+
+# Flask — Lightweight web framework
+# https://pypi.org/project/Flask/
+Flask==3.1.1
+
+# frozendict — Immutable dictionary
+# https://pypi.org/project/frozendict/
+frozendict==2.4.6
+
+# goose3 — Web article extractor
+# https://pypi.org/project/goose3/
+goose3==3.1.11
+
+# h11 — Pure-Python HTTP/1.1 protocol
+# https://pypi.org/project/h11/
+h11==0.16.0
+
+# idna — Internationalized domain names
+# https://pypi.org/project/idna/
+idna==3.10
+
+# itsdangerous — Cryptographic signatures
+# https://pypi.org/project/itsdangerous/
+itsdangerous==2.2.0
+
+# jieba — Chinese word segmentation
+# https://pypi.org/project/jieba/
+jieba==0.42.1
+
+# jieba3k — Python 3 fork of Jieba
+# https://pypi.org/project/jieba3k/
+jieba3k==0.35.1
+
+# Jinja2 — HTML templating engine
+# https://pypi.org/project/Jinja2/
+Jinja2==3.1.6
+
+# jmespath — JSON query language
+# https://pypi.org/project/jmespath/
+jmespath==1.0.1
+
+# joblib — Lightweight parallel computing
+# https://pypi.org/project/joblib/
+joblib==1.5.2
+
+# langdetect — Detect text language
+# https://pypi.org/project/langdetect/
+langdetect==1.0.9
+
+# lxml — XML/HTML parser
+# https://pypi.org/project/lxml/
+lxml==6.0.1
+
+# lxml_html_clean — HTML cleaning utility
+# https://pypi.org/project/lxml-html-clean/
+lxml_html_clean==0.4.2
+
+# MarkupSafe — Safe strings for Jinja2
+# https://pypi.org/project/MarkupSafe/
+MarkupSafe==3.0.2
+
+# multitasking — Lightweight multitasking utility
+# https://pypi.org/project/multitasking/
+multitasking==0.0.12
+
+# narwhals — Data manipulation toolkit
+# https://pypi.org/project/narwhals/
+narwhals==2.4.0
+
+# newspaper-scraper — Web news scraping
+# https://pypi.org/project/newspaper-scraper/
+newspaper-scraper==0.2.1
+
+# newspaper3k — Article scraping & NLP
+# https://pypi.org/project/newspaper3k/
+newspaper3k==0.2.8
+
+# nltk — Natural Language Toolkit
+# https://pypi.org/project/nltk/
+nltk==3.9.1
+
+# numpy — Numerical computing
+# https://pypi.org/project/numpy/
+numpy==2.2.6
+
+# outcome — Capture result or exception
+# https://pypi.org/project/outcome/
+outcome==1.3.0.post0
+
+# packaging — Package version handling
+# https://pypi.org/project/packaging/
+packaging==25.0
+
+# pandas — Data analysis library
+# https://pypi.org/project/pandas/
+pandas==2.3.1
+
+# peewee — Lightweight ORM for databases
+# https://pypi.org/project/peewee/
+peewee==3.18.2
+
+# pillow — Image processing library
+# https://pypi.org/project/Pillow/
+pillow==11.3.0
+
+# platformdirs — Cross-platform directory paths
+# https://pypi.org/project/platformdirs/
+platformdirs==4.3.8
+
+# plotly — Interactive visualizations
+# https://pypi.org/project/plotly/
+plotly==6.3.0
+
+# primp — Python rendering improvement
+# https://pypi.org/project/primp/
+primp==0.15.0
+
+# protobuf — Google Protocol Buffers
+# https://pypi.org/project/protobuf/
+protobuf==6.31.1
+
+# pycparser — C parser in Python
+# https://pypi.org/project/pycparser/
+pycparser==2.22
+
+# pymongo — MongoDB driver
+# https://pypi.org/project/pymongo/
+pymongo==4.14.1
+
+# PySocks — SOCKS proxy client
+# https://pypi.org/project/PySocks/
+PySocks==1.7.1
+
+# python-dateutil — Date/time utilities
+# https://pypi.org/project/python-dateutil/
+python-dateutil==2.9.0.post0
+
+# pytz — Time zone handling
+# https://pypi.org/project/pytz/
+pytz==2025.2
+
+# PyYAML — YAML parser
+# https://pypi.org/project/PyYAML/
+PyYAML==6.0.2
+
+# regex — Advanced regular expressions
+# https://pypi.org/project/regex/
+regex==2025.9.1
+
+# requests — HTTP library
+# https://pypi.org/project/requests/
+requests==2.32.4
+
+# requests-file — Local file adapter for requests
+# https://pypi.org/project/requests-file/
+requests-file==2.1.0
+
+# s3transfer — S3 transfer manager
+# https://pypi.org/project/s3transfer/
+s3transfer==0.13.1
+
+# selenium — Web automation and testing
+# https://pypi.org/project/selenium/
+selenium==4.35.0
+
+# sgmllib3k — SGML parser for Python 3
+# https://pypi.org/project/sgmllib3k/
+sgmllib3k==1.0.0
+
+# six — Python 2/3 compatibility library
+# https://pypi.org/project/six/
+six==1.17.0
+
+# sniffio — Detect async library in use
+# https://pypi.org/project/sniffio/
+sniffio==1.3.1
+
+# sortedcontainers — Sorted data structures
+# https://pypi.org/project/sortedcontainers/
+sortedcontainers==2.4.0
+
+# soupsieve — CSS selectors for BeautifulSoup
+# https://pypi.org/project/soupsieve/
+soupsieve==2.7
+
+# tinysegmenter — Japanese tokenizer
+# https://pypi.org/project/tinysegmenter/
+tinysegmenter==0.3
+
+# tldextract — Extract domain/subdomain from URLs
+# https://pypi.org/project/tldextract/
+tldextract==5.3.0
+
+# tqdm — Progress bar utility
+# https://pypi.org/project/tqdm/
+tqdm==4.67.1
+
+# trio — Async concurrency framework
+# https://pypi.org/project/trio/
+trio==0.30.0
+
+# trio-websocket — WebSocket library for Trio
+# https://pypi.org/project/trio-websocket/
+trio-websocket==0.12.2
+
+# typing_extensions — Typing backports
+# https://pypi.org/project/typing-extensions/
+typing_extensions==4.14.1
+
+# tzdata — Timezone data
+# https://pypi.org/project/tzdata/
+tzdata==2025.2
+
+# urllib3 — HTTP client
+# https://pypi.org/project/urllib3/
+urllib3==2.5.0
+
+# websocket-client — WebSocket client
+# https://pypi.org/project/websocket-client/
+websocket-client==1.8.0
+
+# websockets — WebSocket server/client library
+# https://pypi.org/project/websockets/
+websockets==15.0.1
+
+# Werkzeug — WSGI utilities for Flask
+# https://pypi.org/project/Werkzeug/
+Werkzeug==3.1.3
+
+# wsproto — WebSocket protocol stack
+# https://pypi.org/project/wsproto/
+wsproto==1.2.0
+
+# yfinance — Yahoo Finance API
+# https://pypi.org/project/yfinance/
+yfinance==0.2.65
