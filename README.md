@@ -75,9 +75,9 @@ In the else-statement you can shoud calulate the amout you want to buy from the 
 ![The overview of the website system could not be loaded.](readme_img/overview_websites.jpg)
 
 ## Database Structure
-### I collection "stocks"
+### 1. collection "stocks"
 ![The overview of the "stock" collection could not be loaded.](readme_img/overview_stocks.jpg)
-### II collection "articles"
+### 2. collection "articles"
 ![The overview of the "articles" collection could not be loaded.](readme_img/overview_articles.jpg)
-### III collection "week_history"
+### 3. collection "week_history"
 ![The overview of the "week_history" collection could not be loaded.](readme_img/overview_week_history.jpg)
