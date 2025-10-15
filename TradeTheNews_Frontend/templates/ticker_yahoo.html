@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>GetRichFast - SuchseiteYahoo</title>
+</head>
+<body>
+    {{ header }}
+    <h1 style="text-align: center;">Tickersuche in der Datenbank</h1>
+    <hr><hr>
+    <form action="/yahoo" method="post">    
+        <h3>Typ-Auswahl des Wertpapier:</h3>
+            <input type="radio" id="aktien" name="suchtyp_auswahl" value="aktien" checked="checked"><label for="aktien"> Aktien</label> 
+            <input type="radio" id="etf" name="suchtyp_auswahl" value="etf"><label for="etf"> ETF</label>
+            <input type="radio" id="krypto" name="suchtyp_auswahl" value="krypto"><label for="krypto"> Krypto</label>
+            <input type="radio" id="alle" name="suchtyp_auswahl" value="alle"><label for="alle"> Alle</label>
+        <hr>
+        <h3>Anzahl der Suchergebnisse (between 1 and 20):</h3>
+            <input type="number" id="anzahl_suchergebnisse" name="anzahl_suchergebnisse" min="1" max="20", placeholder="5">
+        <hr>
+        <h3>Suche nach fogendem Namen:</h3>
+            <input style="margin-left: 10px; margin-bottom: 20px;" type="text" name="namen_suche" placeholder="Search...">
+        <br>
+        <input type="submit" value="Suche auf der Yahoo Webseite" name="suche_db">
+    </form>
+    <hr>
+    {{ search_result }}
+    {{ footer }}
+</body>
+</html>

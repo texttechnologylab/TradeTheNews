@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>GetRichFast - Hauptwebseite</title>
+</head>
+<body>
+    {{ header }}
+    <h1 style="text-align: center;">2025 Projekt: Stock Foracast - Übersichtswebseite</h1>
+    <hr><hr>
+    <h2>Aktien mit ihren Daten scrapen</h2>
+    <p style="margin: 2%">
+        Auf der <a href="/yahoo">YahooSuchseite</a> kann man nach einem Namen eines Unternehmens suchen und 
+        die Seite gibt ein zuvor definierte Anzahl von Tickern zurück, über die man dann eine Aktie Scrapen kann.
+        Beispielsweise sucht man nach einer Aktie "APPLE" und bekommt den Ticker <a href="/yahoo/stock/AAPL">AAPL</a>,
+        üben diesen Ticker kommt man dann zur Scrapingseite des Artikels. 
+        Auf dieser Seite kann man die Anzahl der zu scrapenden Artikel bestimmen oder die Wochenzahl an zu scrapenden Aktieninformationen bestimmen.
+        Die Wochendaten oder Aktieninformationen werden dann von der Yahoowebseite gescrapt, 
+        die Zeitungsartikel hingegen werden direkt aus den Internet gescrapt. 
+        Durch deisen Ablauf kann man Atien oder anders mit Unternehmensinformationen, 
+        Kursverläufen und Zeitungsartikeln in die Datenbank laden.
+    </p>
+    <hr>
+    <h2>Zeitungsartikelanalyse</h2>
+    <p style="margin: 2%">
+        Die gescrapten Zeitungsartikel werden mit DUUI analysiert und analysiert in die Datenbank geladen. Dies läuft alles extern über Java.
+        Die Zeitungsartikel können auch in einem Webseitenbereich angezeigt werden, ein beispiel hierzu ist:
+        <a href="/news/https://stadt-bremerhaven.de/apple-setzt-auf-smarte-brillen/">https://www.mobiflip.de/meine-meinung-zu-den-neuen-apple-watches/</a>
+    </p>
+    <hr>
+    <h2>Datenbank Suchseite</h2>
+    <p style="margin: 2%">
+        über die <a href="/database">DatenbankSuchseite</a> kann man nach Tickern suchen und über einem Link auch auf dei Performace Webseite eines Tickers kommen.
+    </p>
+    <hr>
+    <h2>Trading Performance</h2>
+    <p style="margin: 2%">
+        Auf dieser performance Webseite sind verschiedene Tradingstrategien vorgefertigt und erstellen Trades anhand der LLM-Bewertung des Zeitungsartikels.
+        Diese werden dann übersichtlich mit Backtesting dargestellt. Beispielswebseite für <a href="/database/stock/AAPL">APPL</a>
+    </p>
+    {{ footer }}
+</body>
+</html>

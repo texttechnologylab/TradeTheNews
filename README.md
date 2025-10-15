@@ -65,6 +65,19 @@ python main.py
 
 ## Add your own Trading Strategie
 
-![Screenshort von der Datei trading_strategies.py konnte nicht geladen werden :(](readme_img/file_screenshot_trades.jpg
-)
+![The screenshot of the file trading_strategies.py could not be loaded :(](readme_img/file_screenshot_trades.jpg)
+ 
+First create a new entry in the List TRAINDING_STRATEGIES, then add a new Color Sting in the list COLORS.
+Now you just need to exend the if statement in the function trading_strategies. 
+In the else-statement you can shoud calulate the amout you want to buy from the Stock. This value should be saved in the variable stock_to_buy.
 
+## How is the website structure defined?
+![The overview of the website system could not be loaded.](readme_img/overview_websites.jpg)
+
+## Database Structure
+### I collection "stocks"
+![The overview of the "stock" collection could not be loaded.](readme_img/overview_stocks.jpg)
+### II collection "articles"
+![The overview of the "articles" collection could not be loaded.](readme_img/overview_articles.jpg)
+### III collection "week_history"
+![The overview of the "week_history" collection could not be loaded.](readme_img/overview_week_history.jpg)

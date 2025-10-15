@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>GetRichFast - SuchseiteYahoo</title>
+</head>
+<body>
+    {{ header }}
+    <h1 style="text-align: center;">Tickersuche in der Datenbank</h1>
+    <hr><hr>
+    <form action="/database" method="post">    
+        <h3>Suche nach fogendem Ticker:</h3>
+            <input style="margin-left: 10px; margin-bottom: 20px;" type="text" name="ticker_suche" placeholder="Search...">
+        <br>
+        <input type="submit" value="Suche in der Datenbank" name="suche_db"> </br>
+        <input style="margin: 5px;" type="submit" value="Suche zufälliges Element aus der Datenbank" name="zufallssuche">
+    </form>
+    <hr>
+    {{ search_result }}
+    {{ footer }}
+</body>
+</html>
