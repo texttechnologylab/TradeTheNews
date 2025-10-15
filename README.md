@@ -65,5 +65,6 @@ python main.py
 
 ## Add your own Trading Strategie
 
-![Screenshort von der Datei trading_strategies.py konnte nicht geladen werden :(](readme_img/file_screenshot_trades.png)
+![Screenshort von der Datei trading_strategies.py konnte nicht geladen werden :(](readme_img/file_screenshot_trades.jpg
+)
 
